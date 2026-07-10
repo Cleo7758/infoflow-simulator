@@ -1,0 +1,48 @@
+# ====================
+# Python 常见忽略项
+# ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ====================
+# 数据文件
+# ====================
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# ====================
+# 环境变量和密钥
+# ====================
+.env
+.env.local
+*.key
+*.pem
+
+# ====================
+# IDE 和系统文件
+# ====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ====================
+# 部署文件
+# ====================
+dist/
+build/
+*.egg-info/
